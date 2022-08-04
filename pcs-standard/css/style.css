@@ -1,0 +1,285 @@
+﻿@font-face {
+  font-family: 'lcd';
+  src: url('../fonts/lcd/LCD.ttf');
+}
+
+@font-face {
+  font-family: 'digital-7';
+  src: url('../fonts/digital-7/digital-7.mono.ttf');
+}
+
+@font-face {
+  font-family: 'lcdnova';
+  src: url('../fonts/a-lcdnova/LCDNOVA.ttf');
+}
+
+body{
+	font-family: 'verdana';
+}
+
+.title{
+	color: #0ba92f;
+	font-weight: bold;
+	font-size: 20px !important;
+}
+
+.header .legend, .header .title{
+	display: inline-block;
+}
+
+.legend{
+	padding-left: 10px;
+	font-size: 20px;
+}
+
+.legend .rem{
+	display: inline;
+}
+
+.legend .diff{
+	display: inline;
+}
+
+.legend .rem-box{
+	background-color: #ff3535;
+	padding: 5px 15px;
+	display: inline;
+}
+
+.legend .rem-label{
+	display: inline-block;
+	color: red;
+	padding: 0px 5px;
+}
+
+.legend .diff-box{
+	background-color: #5fb1fc;
+	padding: 5px 15px;
+	display: inline;
+}
+
+.legend .diff-label{
+	display: inline-block;
+	color: blue;
+	padding: 0px 5px;
+}
+
+.tr-met{
+	background-color: #6cb4f7;
+	color: #04253d;
+}
+
+.tr-unmet{
+	background-color: #ff3535;
+	color: #280303;
+}
+
+/*.content{
+	padding: 15px;
+}
+
+.carmaker{
+	display: inline-block;
+	padding-right: 10px; 
+	padding-left: 10px; 
+}*/
+
+.content{
+	padding: 25px 10px 200px 10px;
+	width: 1600px;
+	overflow-y: auto;
+}
+
+.carmaker{
+	margin-top: 20px !important;
+	padding-top: 5px !important;
+	padding-right: 5px !important;
+	padding-left: 5px !important;
+	/*height: 100%;*/
+	min-height: 680px;
+	border: solid 1px #757575;
+	width: 375px !important;
+	display: inline-block;
+}
+
+.carmaker h3{
+	font-size: 25px;
+}
+
+.carmaker .table{
+	border: solid 1px #000;
+}
+
+.carmaker .table th{
+	font-size: 15px;
+	padding: 5px !important;
+	border-bottom: solid 1px #757575 !important;
+}
+
+.carmaker .table td{
+	font-size: 15px;
+	padding: 5px !important;
+	border: solid 1px #757575;
+}
+
+.carmaker-cont{
+	display: block;
+	padding-bottom: 20px; 
+}
+
+@-o-keyframes fadeIt {
+  0%   { background-color: #FCFF24; }
+  100% { background-color: #FFFFFF; }
+}
+@keyframes fadeIt {
+  0%  { background-color: #FCFF24; }
+  100% { background-color: #FFFFFF; }
+}
+
+@-o-keyframes fadeLine {
+  0%   { color: #1CC721; }
+  100% { color: #000; }
+}
+@keyframes fadeLine {
+  0%  { color: #1CC721; }
+  100% { color: #000; }
+}
+
+.reloaded{   
+     -o-animation: fadeIt 1s ease-in-out; 
+        animation: fadeIt 1s ease-in-out; 
+}
+
+.reloadedLine{    
+     -o-animation: fadeLine 0.75s ease-in-out; 
+        animation: fadeLine 0.75s ease-in-out; 
+       
+}
+
+
+.bar{
+	font-size: 45px;
+	border: solid 2px #3e3e3e;
+	height: 800px;
+}
+
+.bar .line{
+	font-size: 30px !important;
+	color: #0066BD;
+}
+
+.bar .details{
+	float: center;
+}
+
+
+/*.loading{
+	width: 0;
+	display: inline-block !important;
+	padding: 2px !important;
+	background-color: #04e000;
+	/*margin-top: 60px !important;*/
+}*/
+
+.takt-time{
+	padding: 20px 0;
+}
+
+.takt-label{
+	font-size: 50px;
+	font-weight: 
+}
+
+.takt-value{
+	/*font-size: 50px;*/
+}
+
+.fz-35{
+	font-size: 45px;
+}
+
+.fz-25{
+	font-size: 25px;
+}
+
+
+.title-header{
+	color: #0ba92f;
+    font-size: 39px;
+    font-weight: 600;
+}
+
+.main-1 {
+	background-color: #10ef5e;
+	color : #00541d;
+}
+.main-2{
+	background-color :#25c2f7;
+	color :#004a63;
+}
+.main-3{
+	background-color :#f7cd33;
+	color : #261f05;
+}
+.main-4{
+	background-color :#db2e33;
+	color : #350b0c;
+}
+.main-5{
+	background-color :#6c757d;
+	color : #fff;
+}
+.main-1 p, .main-2 p, .main-3 p, .main-4 p, .main-5 p{
+	
+	padding-top: 20px;
+	font-size: 20px;
+
+}
+.main-1 i, .main-2 i, .main-3 i, .main-4 i, .main-5 i{
+	padding-top: 20px;
+}
+
+.card-header{
+	color: #0ba92f;
+    font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+}
+.super-main {
+	border-radius: 20px;
+	margin-top: 100;
+}
+
+.main-1, .main-2, .main-3, .main-4{
+	margin-bottom: 30px;
+}
+
+
+.btn-target{
+	/*font-size: 32px;*/
+}
+
+.btn-close{
+	/*font-size: 32px;*/
+}
+
+.btn-set{
+	/*font-size: 32px;*/
+}
+
+.btn-resume{
+	/*margin-top: 60px;*/
+	/*padding: 50px;*/
+	/*font-size: 25px;*/
+}
+
+.btn-pause{
+	/*margin-top: 60px;*/
+	/*padding: 50px;*/
+	/*font-size: 25px;*/
+}
+
+.datenow{
+	font-size: 19px !important;
+	color: #ffffff;
+}
